@@ -28,3 +28,4 @@ model_validation/output*/*
 assets/*tar.gz
 model*/*
 TestNB.ipynb
+config.json
