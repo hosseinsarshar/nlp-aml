@@ -22,9 +22,9 @@ outputs/*
 azureml-logs/*
 logs/*
 output/*
-model_validation/__pycache__/*
-model_validation/project/*
-model_validation/output*/*
+# model_validation/__pycache__/*
+# model_validation/project/*
+# model_validation/output*/*
 assets/*tar.gz
 model*/*
 TestNB.ipynb
