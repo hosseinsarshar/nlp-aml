@@ -102,6 +102,7 @@ def delete_old_deployments(online_endpoint_name, skip_deploy_name):
         ml_client.online_deployments.delete(name=online_deployment, endpoint_name=online_endpoint_name)
     print(f'Deletion of the deployments are completed for: [{li_to_be_deleted_dep}]')
 
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--endpoint-name', type=str, dest='endpoint_name', help='Name of the endpoint')
